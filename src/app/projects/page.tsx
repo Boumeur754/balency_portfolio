@@ -114,17 +114,7 @@ export default function Projects() {
                         <FiGithub className="w-5 h-5" />
                       </a>
                     )}
-                    {project.demo && (
-                      <a 
-                        href={project.demo}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-gray-600 hover:text-gray-900 transition-colors"
-                        title="Voir la démo"
-                      >
-                        <FiExternalLink className="w-5 h-5" />
-                      </a>
-                    )}
+                   
                   </div>
                 </div>
               </div>
